@@ -1,0 +1,26 @@
+{
+  "name": "designbymalina/datatables-app",
+  "description": "Aplikacja demo dla DbM DataTables PHP",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "phpoffice/phpspreadsheet": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "App\\Core\\": "application/",
+      "Dbm\\DataTables\\Src\\": "libraries/dbm/datatables/src/"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+        "php application/copy-assets.php --src=vendor/dbm/datatables/assets --dest=public/assets/datatables --clear=1"
+    ],
+    "post-update-cmd": [
+        "php application/copy-assets.php --src=vendor/dbm/datatables/assets --dest=public/assets/datatables --clear=1"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
