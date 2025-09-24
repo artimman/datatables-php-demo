@@ -91,4 +91,4 @@ public function run(): array
 
 Dzięki temu logika (pobranie danych, paginacja, filtrowanie) jest w kontrolerze, a renderowanie w pliku aplikacji i szablonie.
 
-Więcej szczegółów znajduje się pod adresem: https://github.com/artimman/datatables-php-demo/blob/main/libraries/dbm/datatables/README.md 
+Więcej szczegółów znajduje się pod adresem: [README](https://github.com/artimman/datatables-php-demo/blob/main/libraries/dbm/datatables/README.md)
