@@ -95,6 +95,8 @@ Dzięki temu logika (pobranie danych, paginacja, filtrowanie) jest w kontrolerze
 
 ![Podgląd Datatables](./public/images/screenshot.png)
 
-Kompletny przykład integracji **DataTables w PHP** z funkcjonalnościami **CRUD (Create, Read, Update, Delete)**. Projekt pokazuje jak zbudować **dynamiczną tabelę danych**, która obsługuje **filtrowanie, sortowanie, paginację** oraz dodawanie, edycję i usuwanie rekordów. Praktyczny przykład użycia **DataTables jako narzędzia do CRUD w aplikacjach webowych**.
+Więcej szczegółów znajduje się pod adresem: [README](https://github.com/artimman/datatables-php-demo/blob/main/libraries/dbm/datatables/README.md)  
 
-Więcej szczegółów znajduje się pod adresem: [README](https://github.com/artimman/datatables-php-demo/blob/main/libraries/dbm/datatables/README.md)
+Kompletny przykład integracji **DataTables w PHP** z funkcjonalnościami **CRUD (Create, Read, Update, Delete)**. Projekt pokazuje jak zbudować **dynamiczną tabelę danych**, która obsługuje **filtrowanie, sortowanie, paginację** oraz dodawanie, edycję i usuwanie rekordów. Praktyczny przykład użycia **DataTables jako narzędzia do CRUD w aplikacjach webowych**.  
+
+Wystarczy tylko skonfigurować bibliotekę, a cała obsługa danych dzieje się automatycznie.  
